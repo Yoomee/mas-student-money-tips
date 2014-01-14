@@ -7,8 +7,8 @@ gem 'rails', '3.2.15'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 github_auth = "ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic"
-# gem 'student_money_tips', :git => "https://#{github_auth}@github.com/moneyadviceservice/student_money_tips.git"
-gem 'student_money_tips', :path => '../student_money_tips'
+gem 'student_money_tips', :git => "https://#{github_auth}@github.com/moneyadviceservice/student_money_tips.git"
+# gem 'student_money_tips', :path => '../student_money_tips'
 
 gem 'mas-build', :git => "https://#{github_auth}@github.com/moneyadviceservice/mas-build.git"
 gem 'mas-assets', :git => "https://#{github_auth}@github.com/moneyadviceservice/mas-assets.git"

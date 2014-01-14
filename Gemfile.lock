@@ -17,8 +17,9 @@ GIT
     mas-build (2.0.1)
       fpm (~> 1.0)
 
-PATH
-  remote: ../student_money_tips
+GIT
+  remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/student_money_tips.git
+  revision: d3769d1ab026f65ac49c3eda2391126ef506333e
   specs:
     student_money_tips (0.0.1)
       formtastic-bootstrap (~> 2.1.3)
