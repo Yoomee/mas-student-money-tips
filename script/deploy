@@ -1,0 +1,7 @@
+#!/bin/bash
+# WARNING - this will wipe the database
+git push heroku master
+heroku pg:reset DATABASE --confirm mas-student-money-tips
+heroku run 'rake db:migrate && rake db:seed'
+heroku restart
+heroku open
