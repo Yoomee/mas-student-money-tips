@@ -3,10 +3,14 @@ application.js: application-5ef92bbdd1eaccf7096d5ea834943582.js
 application/index.js: application-5ef92bbdd1eaccf7096d5ea834943582.js
 application.css: application-1b13569e9620782f423d4cd3ce931750.css
 application/index.css: application-1b13569e9620782f423d4cd3ce931750.css
+student_money_tips/flag-cy.png: student_money_tips/flag-cy-21f400397025c33781b10722f6b4f128.png
+student_money_tips/flag-cy/index.png: student_money_tips/flag-cy-21f400397025c33781b10722f6b4f128.png
+student_money_tips/flag-en.png: student_money_tips/flag-en-76c5f60cbaec169632bc990e02bb5600.png
+student_money_tips/flag-en/index.png: student_money_tips/flag-en-76c5f60cbaec169632bc990e02bb5600.png
 student_money_tips/admin.js: student_money_tips/admin-bade70ea2cff41c209d4727bcbd58e97.js
 student_money_tips/admin/index.js: student_money_tips/admin-bade70ea2cff41c209d4727bcbd58e97.js
-student_money_tips/admin.css: student_money_tips/admin-ac3f4b9397bfaeda828f4dbc0ce89138.css
-student_money_tips/admin/index.css: student_money_tips/admin-ac3f4b9397bfaeda828f4dbc0ce89138.css
+student_money_tips/admin.css: student_money_tips/admin-229b245421b60a2cd2bf0b6a7875ef6b.css
+student_money_tips/admin/index.css: student_money_tips/admin-229b245421b60a2cd2bf0b6a7875ef6b.css
 student_money_tips/widget.css: student_money_tips/widget-e8a52637f8f24badd6c15109126d6e37.css
 student_money_tips/widget/index.css: student_money_tips/widget-e8a52637f8f24badd6c15109126d6e37.css
 museo_slab_100-webfont.eot: museo_slab_100-webfont-05fdda83b091d685c53cabf896560381.eot
