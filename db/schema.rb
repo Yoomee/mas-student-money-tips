@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140115103647) do
+ActiveRecord::Schema.define(:version => 20140115171559) do
 
   create_table "student_money_tips_scenarios", :force => true do |t|
     t.string   "name_en"
@@ -31,5 +31,15 @@ ActiveRecord::Schema.define(:version => 20140115103647) do
   end
 
   add_index "student_money_tips_tips", ["scenario_id"], :name => "index_student_money_tips_tips_on_scenario_id"
+
+  create_table "student_money_tips_tools", :force => true do |t|
+    t.text     "title_en"
+    t.text     "title_cy"
+    t.string   "link_text_en"
+    t.string   "link_text_cy"
+    t.text     "url"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
 
 end
