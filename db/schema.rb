@@ -11,14 +11,25 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140113154842) do
+ActiveRecord::Schema.define(:version => 20140115103647) do
 
   create_table "student_money_tips_scenarios", :force => true do |t|
-    t.string   "name"
-    t.text     "tips"
+    t.string   "name_en"
+    t.string   "name_cy"
     t.integer  "position",   :default => 0
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
   end
+
+  create_table "student_money_tips_tips", :force => true do |t|
+    t.integer  "scenario_id"
+    t.text     "text_en"
+    t.text     "text_cy"
+    t.integer  "position",    :default => 0
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+  end
+
+  add_index "student_money_tips_tips", ["scenario_id"], :name => "index_student_money_tips_tips_on_scenario_id"
 
 end
