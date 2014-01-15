@@ -1,7 +1,9 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+require 'yaml'
+scenarios = YAML.load_file('db/seeds/scenarios.yml')
+scenarios.each do |scenario|
+  s = StudentMoneyTips::Scenario.new(:name_en => scenario["name"])
+  scenario["tips"].each do |tip|
+    s.tips.build(:text_en => tip)
+  end
+  s.save
+end
