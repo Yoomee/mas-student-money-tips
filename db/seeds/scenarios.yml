@@ -10,6 +10,11 @@
     - Tell the student loan company if you're going overseas for a long period of time
     - Think of visas, vaccinations and travel insurance, and make sure you get the best travel insurance for what you want to do while you're away
     - If you find that debt is playing on your mind, take advice immediately
+  tools:
+    - HC
+    - BP
+    - CT
+    - DT
 - 
   name: getting a job
   tips:
@@ -26,6 +31,12 @@
     - Repayment of student loans is income-based. Remember your student loan repayments will be a combination of your tuition fees and your maintenance loan
     - Be prepared for the culture shock of moving into the working world - initially, lots of students feel worse off than they did at university
     - If you find that debt is playing on your mind, take advice immediately
+  tools:
+    - SMC
+    - HC
+    - BP
+    - CT
+    - DT
 - 
   name: moving back home
   tips:
@@ -33,7 +44,6 @@
     - Save up for a deposit for a new house
     - Transfer the address of your mobile phone bill, bank statements and Electoral Registration
     - Understand that anything in your name is your responsibility
-    - Consider your borrowing options
     - Understand that you'll have to pay Council Tax / rates when you leave university
     - Get your deposit back from your landlord
     - Familiarise yourself with the terms of your new graduate bank account
@@ -42,6 +52,11 @@
     - Consider whether you really need to run a car
     - Repayment of student loans is income-based. Remember your student loan repayments will be a combination of your tuition fees and your maintenance loan
     - If you find that debt is playing on your mind, take advice immediately
+  tools:
+    - HC
+    - BP
+    - CT
+    - DT
 - 
   name: staying on in education
   tips:
@@ -50,6 +65,11 @@
     - Get your deposit back from your landlord
     - Consider whether you really need to run a car
     - If you find that debt is playing on your mind, take advice immediately
+  tools:
+    - SMC
+    - BP
+    - HC
+    - DT
 - 
   name: moving out of a student house
   tips:
@@ -62,6 +82,12 @@
     - If you're out of work, see what benefits you're eligible to claim
     - Consider whether you really need to run a car
     - If you find that debt is playing on your mind, take advice immediately
+  tools:
+    - SMC
+    - BP
+    - HC
+    - CT
+    - DT
 - 
   name: finding a new place to live
   tips:
@@ -75,6 +101,12 @@
     - Consider whether you really need to run a car
     - If you find that debt is playing on your mind, take advice immediately
     - Make sure you shop around for the best energy supplier etc…
+  tools:
+    - SMC
+    - BP
+    - HC
+    - CT
+    - DT
 - 
   name: internship
   tips:
@@ -91,3 +123,8 @@
     - Ensure you are getting at least the minimum wage as an intern
     - Understand that the intern position might not be the job you want to do in the long run, but stick with it as it'll stand you in good stead in future
     - Take careers advice if any is available 
+  tools:
+    - HC
+    - BP
+    - CT
+    - DT
