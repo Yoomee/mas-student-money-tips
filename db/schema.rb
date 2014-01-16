@@ -21,6 +21,14 @@ ActiveRecord::Schema.define(:version => 20140115171559) do
     t.datetime "updated_at",                :null => false
   end
 
+  create_table "student_money_tips_scenarios_tools", :id => false, :force => true do |t|
+    t.integer "scenario_id"
+    t.integer "tool_id"
+  end
+
+  add_index "student_money_tips_scenarios_tools", ["scenario_id"], :name => "index_student_money_tips_scenarios_tools_on_scenario_id"
+  add_index "student_money_tips_scenarios_tools", ["tool_id"], :name => "index_student_money_tips_scenarios_tools_on_tool_id"
+
   create_table "student_money_tips_tips", :force => true do |t|
     t.integer  "scenario_id"
     t.text     "text_en"
