@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140115171559) do
+ActiveRecord::Schema.define(:version => 20140121154109) do
 
   create_table "student_money_tips_scenarios", :force => true do |t|
     t.string   "name_en"
@@ -39,6 +39,27 @@ ActiveRecord::Schema.define(:version => 20140115171559) do
   end
 
   add_index "student_money_tips_tips", ["scenario_id"], :name => "index_student_money_tips_tips_on_scenario_id"
+
+  create_table "student_money_tips_tips_users", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.boolean  "admin",                  :default => false
+    t.string   "email",                  :default => "",    :null => false
+    t.string   "encrypted_password",     :default => "",    :null => false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          :default => 0,     :null => false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
+  end
+
+  add_index "student_money_tips_tips_users", ["email"], :name => "index_student_money_tips_tips_users_on_email", :unique => true
+  add_index "student_money_tips_tips_users", ["reset_password_token"], :name => "index_student_money_tips_tips_users_on_reset_password_token", :unique => true
 
   create_table "student_money_tips_tools", :force => true do |t|
     t.text     "title_en"
