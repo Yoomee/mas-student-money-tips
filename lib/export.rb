@@ -8,7 +8,7 @@ system "wget -O export/assets/widget.css http://localhost:3000/assets/student_mo
 %w{widget results}.each do |file|
   path = "export/#{file}.html"
   html = File.read(path)
-  html.sub!("/assets/student_money_tips/","assets/")
+  html.sub!("/assets/","http://mas-student-money-tips.herokuapp.com/assets/")
   html.sub!("/en/student_money_tips/embed","widget.html")
   html.sub!("/en/student_money_tips/results","results.html")
   File.open(path,'w'){|f| f.puts html}
