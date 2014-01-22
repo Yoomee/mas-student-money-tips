@@ -3,6 +3,8 @@ application.js: application-5ef92bbdd1eaccf7096d5ea834943582.js
 application/index.js: application-5ef92bbdd1eaccf7096d5ea834943582.js
 application.css: application-1b13569e9620782f423d4cd3ce931750.css
 application/index.css: application-1b13569e9620782f423d4cd3ce931750.css
+home-icon.png: home-icon-23adb12a21416fcfe9c748c56db1ae76.png
+home-icon/index.png: home-icon-23adb12a21416fcfe9c748c56db1ae76.png
 student_money_tips/browser-desktop.png: student_money_tips/browser-desktop-7a27ac2e91500f3a9db9dc3f959c1f31.png
 student_money_tips/browser-desktop/index.png: student_money_tips/browser-desktop-7a27ac2e91500f3a9db9dc3f959c1f31.png
 student_money_tips/browser-mobile.png: student_money_tips/browser-mobile-a4add7a9b6a46ae7ed8e7a7ecc48a176.png
@@ -19,10 +21,10 @@ student_money_tips/mas-header.png: student_money_tips/mas-header-391614d268f32b7
 student_money_tips/mas-header/index.png: student_money_tips/mas-header-391614d268f32b7cb68cbcb7bf10916e.png
 student_money_tips/admin.js: student_money_tips/admin-d8358d476c45c405f70571e91c239510.js
 student_money_tips/admin/index.js: student_money_tips/admin-d8358d476c45c405f70571e91c239510.js
-student_money_tips/admin.css: student_money_tips/admin-16bedb351bfab58950b2e81c8d562e80.css
-student_money_tips/admin/index.css: student_money_tips/admin-16bedb351bfab58950b2e81c8d562e80.css
-student_money_tips/widget.css: student_money_tips/widget-cf8dd7f26439b7e9cd918ca187da8ea9.css
-student_money_tips/widget/index.css: student_money_tips/widget-cf8dd7f26439b7e9cd918ca187da8ea9.css
+student_money_tips/admin.css: student_money_tips/admin-982b4b51cfdc335401ed3635c9f00945.css
+student_money_tips/admin/index.css: student_money_tips/admin-982b4b51cfdc335401ed3635c9f00945.css
+student_money_tips/widget.css: student_money_tips/widget-02637f00c3acb50ad5ecdb3171537544.css
+student_money_tips/widget/index.css: student_money_tips/widget-02637f00c3acb50ad5ecdb3171537544.css
 museo_slab_100-webfont.eot: museo_slab_100-webfont-05fdda83b091d685c53cabf896560381.eot
 museo_slab_100-webfont/index.eot: museo_slab_100-webfont-05fdda83b091d685c53cabf896560381.eot
 museo_slab_100-webfont.otf: museo_slab_100-webfont-f138bb069bc28a09634c93af1f56a13d.otf
