@@ -1,24 +1,40 @@
 -
-  title: Don’t know where you stand with money? Take our free Money Health Check – you’ll find out which areas to focus on and practical ways to improve your situation.
   code: HC
+  title: Don’t know where you stand with money? Take our free Money Health Check – you’ll find out which areas to focus on and practical ways to improve your situation.
+  link_text: Go to the Money Health Check
   url: https://www.moneyadviceservice.org.uk/en/tools/health-check
 -
-  title: Take control of your money by creating your own personal budget. It’s so easy; it only takes 5 minutes.
   code: BP
+  title: Take control of your money by creating your own personal budget. It’s so easy; it only takes 5 minutes.
+  link_text: Go to the Budget Planner
   url: https://www.moneyadviceservice.org.uk/en/tools/budget-planner
 -
-  title: Use our calculator to get an idea of removal costs to allow you to budget for extra costs you might not have thought about.
   code: SMC
+  title: Use our calculator to get an idea of removal costs to allow you to budget for extra costs you might not have thought about.
+  link_text: Go to the Smart Mover Calculator
   url: https://www.moneyadviceservice.org.uk/en/tools/smart-mover-calculator
 -
-  title: If you are thinking about borrowing, use this calculator to help you work out how long it will take to pay it off or how much you’ll need to repay each month.
   code: LC
+  title: If you are thinking about borrowing, use this calculator to help you work out how long it will take to pay it off or how much you’ll need to repay each month.
+  link_text: Go to the Loan Calculator
   url: https://www.moneyadviceservice.org.uk/en/tools/loan-calculator
 -
-  title: Check your level of debt and see how you can get back on track.
   code: DT
+  title: Check your level of debt and see how you can get back on track.
+  link_text: Go to the Debt Test
   url: https://www.moneyadviceservice.org.uk/en/tools/debt-test
 -
-  title: Check our comparison table to see if your graduate account meets your needs.
   code: CT
+  title: Check our comparison table to see if your graduate account meets your needs.
+  link_text: Go to the Comparison Table
   url: https://compare.moneyadviceservice.org.uk/currentaccounts/Step1
+-
+  code: BI
+  title: "If you live in England, Scotland or Wales:"
+  link_text: Go to the Gov.uk benefits adviser
+  url: https://www.gov.uk/benefits-adviser
+-
+  code: BINL
+  title: "If you live in Northern Ireland:"
+  link_text: Go to the NIDirect benefits and financial support page
+  url: http://www.nidirect.gov.uk/index/information-and-services/money-tax-and-benefits/benefits-and-financial-support.htm

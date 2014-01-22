@@ -74,6 +74,8 @@
   - BP
   - CT
   - DT
+  - BI
+  - BINL
 - name: staying on in education
   tips:
   - Pay off your final bills as a student
@@ -114,6 +116,8 @@
   - HC
   - CT
   - DT
+  - BI
+  - BINL
 - name: finding a new place to live
   tips:
   - Pay off your final bills as a student
@@ -142,6 +146,8 @@
   - LC
   - CT
   - DT
+  - BI
+  - BINL
 - name: internships
   tips:
   - Pay off your final bills as a student
@@ -193,3 +199,5 @@
   - BP
   - CT
   - DT
+  - BI
+  - BINL
