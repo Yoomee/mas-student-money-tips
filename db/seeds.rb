@@ -1,13 +1,6 @@
 require 'yaml'
 require 'csv'
 
-tools_data = YAML.load_file('db/seeds/tools.yml')
-tools = {}
-tools_data.each do |tool|
-  tools[tool["code"]] = StudentMoneyTips::Tool.create(:name => tool["name"], :title_en => tool["title"], :link_text_en => tool["link_text"], :url => tool["url"])
-end
-
-
 scenarios_yaml = 'db/seeds/scenarios.yml'
 unless File.exists?(scenarios_yaml)
   tool_codes = [
@@ -38,14 +31,4 @@ unless File.exists?(scenarios_yaml)
   File.open(scenarios_yaml, 'w') {|f| f.puts scenarios.to_yaml}
 end
 
-scenarios_data = YAML.load_file(scenarios_yaml)
-scenarios_data.each do |scenario|
-  s = StudentMoneyTips::Scenario.new(:name_en => scenario["name"])
-  scenario["tips"].each do |tip|
-    s.tips.build(:text_en => tip)
-  end
-  scenario["tools"].each do |code|
-    s.tools << tools[code]
-  end
-  s.save
-end
+Rake::Task['student_money_tips:db:seed'].invoke
