@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140122094102) do
+ActiveRecord::Schema.define(:version => 20140122123343) do
 
   create_table "student_money_tips_audit_records", :force => true do |t|
     t.integer  "user_id"
@@ -72,6 +72,7 @@ ActiveRecord::Schema.define(:version => 20140122094102) do
   add_index "student_money_tips_tips_users", ["reset_password_token"], :name => "index_student_money_tips_tips_users_on_reset_password_token", :unique => true
 
   create_table "student_money_tips_tools", :force => true do |t|
+    t.string   "name"
     t.text     "title_en"
     t.text     "title_cy"
     t.string   "link_text_en"
@@ -79,6 +80,12 @@ ActiveRecord::Schema.define(:version => 20140122094102) do
     t.text     "url"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+  end
+
+  create_table "student_money_tips_widget_hosts", :force => true do |t|
+    t.text     "url"
+    t.string   "name"
+    t.datetime "created_at"
   end
 
 end

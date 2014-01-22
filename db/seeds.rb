@@ -4,7 +4,7 @@ require 'csv'
 tools_data = YAML.load_file('db/seeds/tools.yml')
 tools = {}
 tools_data.each do |tool|
-  tools[tool["code"]] = StudentMoneyTips::Tool.create(:title_en => tool["title"], :link_text_en => tool["link_text"], :url => tool["url"])
+  tools[tool["code"]] = StudentMoneyTips::Tool.create(:name => tool["name"], :title_en => tool["title"], :link_text_en => tool["link_text"], :url => tool["url"])
 end
 
 
