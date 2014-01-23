@@ -25,6 +25,10 @@ student_money_tips/admin.css: student_money_tips/admin-6e9e685bd8ab0b8e9b5bac679
 student_money_tips/admin/index.css: student_money_tips/admin-6e9e685bd8ab0b8e9b5bac6796cd8f76.css
 student_money_tips/widget.css: student_money_tips/widget-89dced6c1b9f725428cc2ca944e18802.css
 student_money_tips/widget/index.css: student_money_tips/widget-89dced6c1b9f725428cc2ca944e18802.css
+student_money_tips/widget/ie7.css: student_money_tips/widget/ie7-c15eec5d4b48c742bc7bfc10d89a79a3.css
+student_money_tips/widget/ie7/index.css: student_money_tips/widget/ie7-c15eec5d4b48c742bc7bfc10d89a79a3.css
+student_money_tips/widget/ie8.css: student_money_tips/widget/ie8-5753df9dc94604caa3a316f0add31c8e.css
+student_money_tips/widget/ie8/index.css: student_money_tips/widget/ie8-5753df9dc94604caa3a316f0add31c8e.css
 museo_slab_100-webfont.eot: museo_slab_100-webfont-05fdda83b091d685c53cabf896560381.eot
 museo_slab_100-webfont/index.eot: museo_slab_100-webfont-05fdda83b091d685c53cabf896560381.eot
 museo_slab_100-webfont.otf: museo_slab_100-webfont-f138bb069bc28a09634c93af1f56a13d.otf
