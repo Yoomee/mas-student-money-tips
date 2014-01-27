@@ -1,0 +1,1 @@
+function handleMASResizeMessage(e){var s=e.data.split("-");"MASRESIZE"===s[0]&&(document.getElementById("student_money_tips").height=s[1])}window.addEventListener?addEventListener("message",handleMASResizeMessage,!1):attachEvent("onmessage",handleMASResizeMessage);
