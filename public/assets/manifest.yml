@@ -17,6 +17,8 @@ student_money_tips/browser-desktop.png: student_money_tips/browser-desktop-01a47
 student_money_tips/browser-desktop/index.png: student_money_tips/browser-desktop-01a47c20b8557c1ac0378a9bde6f54ec.png
 student_money_tips/browser-mobile.png: student_money_tips/browser-mobile-a4add7a9b6a46ae7ed8e7a7ecc48a176.png
 student_money_tips/browser-mobile/index.png: student_money_tips/browser-mobile-a4add7a9b6a46ae7ed8e7a7ecc48a176.png
+student_money_tips/checkbox.png: student_money_tips/checkbox-6840747d9186f31773bff4839cd0fe01.png
+student_money_tips/checkbox/index.png: student_money_tips/checkbox-6840747d9186f31773bff4839cd0fe01.png
 student_money_tips/favicon.ico: student_money_tips/favicon-02596af598a31dc6fde4a99812690a11.ico
 student_money_tips/favicon/index.ico: student_money_tips/favicon-02596af598a31dc6fde4a99812690a11.ico
 student_money_tips/flag-cy.png: student_money_tips/flag-cy-21f400397025c33781b10722f6b4f128.png
@@ -35,10 +37,12 @@ student_money_tips/admin.js: student_money_tips/admin-79513d003cb99c313ac5251907
 student_money_tips/admin/index.js: student_money_tips/admin-79513d003cb99c313ac5251907a4c9fb.js
 student_money_tips/embed.js: student_money_tips/embed-f91a32af1e29bc00372ec17db3aa8537.js
 student_money_tips/embed/index.js: student_money_tips/embed-f91a32af1e29bc00372ec17db3aa8537.js
+student_money_tips/widget.js: student_money_tips/widget-4fba7d59bf29f546469a5c1f970502dd.js
+student_money_tips/widget/index.js: student_money_tips/widget-4fba7d59bf29f546469a5c1f970502dd.js
 student_money_tips/admin.css: student_money_tips/admin-cae355af6ba21dd2fc5be2bbce6668df.css
 student_money_tips/admin/index.css: student_money_tips/admin-cae355af6ba21dd2fc5be2bbce6668df.css
-student_money_tips/widget.css: student_money_tips/widget-b488fcdeffb1118cb29ece480ba4dec1.css
-student_money_tips/widget/index.css: student_money_tips/widget-b488fcdeffb1118cb29ece480ba4dec1.css
+student_money_tips/widget.css: student_money_tips/widget-295ec64ab0eab1e5159e9b9bf2e912cc.css
+student_money_tips/widget/index.css: student_money_tips/widget-295ec64ab0eab1e5159e9b9bf2e912cc.css
 student_money_tips/widget/ie7.css: student_money_tips/widget/ie7-c15eec5d4b48c742bc7bfc10d89a79a3.css
 student_money_tips/widget/ie7/index.css: student_money_tips/widget/ie7-c15eec5d4b48c742bc7bfc10d89a79a3.css
 student_money_tips/widget/ie8.css: student_money_tips/widget/ie8-5753df9dc94604caa3a316f0add31c8e.css

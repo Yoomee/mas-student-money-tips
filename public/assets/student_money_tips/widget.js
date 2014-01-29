@@ -1,0 +1,1 @@
+(function(){window.Checkbox={toggle:function(e){var t;return event.preventDefault?event.preventDefault():event.returnValue=!1,t=e.getElementsByTagName("input")[0],t.checked?(t.checked=!1,e.className=""):(t.checked=!0,e.className="checked")}}}).call(this);
