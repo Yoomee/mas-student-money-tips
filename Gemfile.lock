@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/student_money_tips.git
-  revision: 9ae9328e9f18bdf8639576cd1f6b427a51b6220b
+  revision: 63548f16e3d22405c3943a7e4e70db90eb879f2c
   specs:
     student_money_tips (0.0.1)
       cocoon (~> 1.2.5)
